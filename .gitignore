@@ -1,0 +1,78 @@
+.DS_Store
+fullstackweather/HELP.md
+fullstackweather/target/
+fullstackweather/!.mvn/wrapper/maven-wrapper.jar
+fullstackweather/!**/src/main/**/target/
+fullstackweather/!**/src/test/**/target/
+
+### STS ###
+fullstackweather/.apt_generated
+fullstackweather/.classpath
+fullstackweather/.factorypath
+fullstackweather/.project
+fullstackweather/.settings
+fullstackweather/.springBeans
+fullstackweather/.sts4-cache
+
+### IntelliJ IDEA ###
+fullstackweather/.idea
+fullstackweather/*.iws
+fullstackweather/*.iml
+fullstackweather/*.ipr
+
+### NetBeans ###
+fullstackweather/nbproject/private/
+fullstackweather/nbbuild/
+fullstackweather/dist/
+fullstackweather/nbdist/
+fullstackweather/.nb-gradle/
+fullstackweather/build/
+fullstackweather/!**/src/main/**/build/
+fullstackweather/!**/src/test/**/build/
+
+### VS Code ###
+fullstackweather/.vscode/
+
+# ANGULAR GIT IGNORE
+
+# Compiled output
+fsweatherfe/dist
+fsweatherfe/tmp
+fsweatherfe/out-tsc
+fsweatherfe/bazel-out
+
+# Node
+fsweatherfe/node_modules
+fsweatherfe/npm-debug.log
+fsweatherfe/yarn-error.log
+
+# IDEs and editors
+fsweatherfe/.idea/
+fsweatherfe/.project
+fsweatherfe/.classpath
+fsweatherfe/.c9/
+fsweatherfe/*.launch
+fsweatherfe/.settings/
+fsweatherfe/*.sublime-workspace
+
+# Visual Studio Code
+fsweatherfe/.vscode/*
+fsweatherfe/!.vscode/settings.json
+fsweatherfe/!.vscode/tasks.json
+fsweatherfe/!.vscode/launch.json
+fsweatherfe/!.vscode/extensions.json
+fsweatherfe/.history/*
+
+# Miscellaneous
+fsweatherfe/.angular/cache
+fsweatherfe/.sass-cache/
+fsweatherfe/connect.lock
+fsweatherfe/coverage
+fsweatherfe/libpeerconnection.log
+fsweatherfe/testem.log
+fsweatherfe/typings
+
+# System files
+fsweatherfe/.DS_Store
+fsweatherfe/Thumbs.db
+

@@ -1,0 +1,14 @@
+<div class="container">
+    <form [formGroup]="cityFormGroup" (ngSubmit)="handleFormSubmit()">
+        <button (click)="addCityInput()">Add new input</button>
+        <div *ngIf="cityFormArray.length > 0" formArrayName="cityFormArray">
+            <div class="input-button-container" *ngFor="let city of cityFormArray.controls; let i = index"  [formGroupName]="i">
+                <input formControlName="countryName" type="text" placeholder="Enter city name">
+            </div>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <div class="city-list">
+        <h1></h1>
+    </div>
+</div>
